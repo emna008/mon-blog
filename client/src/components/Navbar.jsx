@@ -15,7 +15,7 @@ export default function Navbar() {
       const response = await axiosClient.get('/articles');
       dispatch(setArticles(response.data));
     } catch (err) {
-      dispatch(setError('Serveur Express injoignable sur http://localhost:5000.'));
+      dispatch(setError(`Serveur Express injoignable sur ${axiosClient.defaults.baseURL}.`));
     }
   };
 
