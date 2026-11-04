@@ -1,11 +1,11 @@
 {
   "name": "s5-server-express",
   "version": "1.0.0",
-  "description": "Serveur API REST Express avec CORS pour la Séance 5 (Groupe Décalé)",
+  "description": "Serveur API REST Express avec CORS pour la S\u00e9ance 5 (Groupe D\u00e9cal\u00e9)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && node --watch server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
