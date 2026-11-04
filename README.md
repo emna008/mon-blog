@@ -25,3 +25,14 @@ Suivez le support PDF **S6_Seance_Interactive_Decale.pdf** inclus dans ce dossie
 1. **client/src/redux/authSlice.js** (Étape 2 - Page 2) : Décommenter loginSuccess et logout.
 2. **client/src/api/axiosClient.js** (Étape 3 - Page 3) : Décommenter l'Intercepteur Axios (Bearer ).
 3. **client/src/components/AuthCard.jsx** (Étape 4 - Page 4) : Décommenter l'appel xiosClient.post('/auth/login', ...) et dispatch(loginSuccess(response.data)).
+
+### 🌍 4. Application Déployée en Production
+| Brique | Hébergeur | Adresse |
+|---|---|---|
+| Code source | GitHub | https://github.com/emna008/mon-blog |
+| API Express | Render | https://mon-blog-716h.onrender.com/api/articles |
+| Front-End React | Vercel | https://mon-blog-api.vercel.app |
+
+Compte de démonstration : `gueddes@poly.tn` / `123456`
+
+> L'API gratuite de Render se met en veille après 15 min : la première requête peut prendre ~50 s.
